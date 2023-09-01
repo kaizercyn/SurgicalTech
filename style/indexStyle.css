@@ -112,6 +112,7 @@ body{
 
 .topbar a{
     position:sticky;
+    font-family: 'Handil Pro';
     font-size: 18px;
     color: rgb(0, 0, 0);
     font-weight: 200;
@@ -188,7 +189,7 @@ body{
 }
 
 .img-txt p {
-    font-family: "Phlatt", sans-serif;
+    font-family: 'Phlatt Grotesk';
     font-size: 15px;
     color: #FF4200;
 }
