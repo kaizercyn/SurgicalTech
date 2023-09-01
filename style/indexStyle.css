@@ -1,8 +1,15 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Helvetica, sans-serif;
+}
+
 body{
-    background-color: rgb(255, 255, 255);
+    min-height:100vh;
+    background-color: black
 }
 
 h1{
-    color: rgb(17, 1, 1);
-    text-align: center;
+    color: antiquewhite;
 }
