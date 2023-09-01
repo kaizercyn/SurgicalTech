@@ -204,26 +204,49 @@ body{
 @media screen and (max-width: 500px) {
     .header {
         background-color:rgba(0,0,0,0);
-    }
 
+    }
     .header img{
         height:50%;
         width: 50%;
     }
-
-    .topbar{
-        display:none;
-    }
     .logo{
-        display: inline-block;
-        position: relative;
         margin: auto;
         width: 20%;
         height: 20%;
     }
-    .logo-content{
+    .topbar{
         display: none;
         position: absolute;
+        background-color:lightgoldenrodyellow;
+        min-width: 350px;
+        padding: 12px 16px;
+        z-index: 1;
+        
+        
     }
+    .header:hover .topbar{
+        display: inline;
+        opacity: 1;
+        transition: 1s;
+    }
+    .header:hover .logo{
+        opacity: 0.0001;
+        transition: .3s;
+    }
+    .main-bg img{
+        opacity: .0001;    
+    }
+    .main-bg{
+        background-color: plum;
+        background-image: url();
+
+        
+    }
+    .title{
+        left: 50px;
+        right: 50px;
+    }
+
 }
     
