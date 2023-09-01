@@ -1,33 +1,40 @@
+@font-face {
+    font-family: 'Handil Pro';
+    src: url('/other_resources/fonts/subset-HandilPro-Medium.woff2') format('woff2'),
+        url('/other_resources/fonts/subset-HandilPro-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'VAGABONDED';
+    src: url('/other_resources/fonts/subset-VAGABONDED-Bold.woff2') format('woff2'),
+        url('/other_resources/fonts/subset-VAGABONDED-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'VAGABONDED ExtBd';
+    src: url('/other_resources/fonts/subset-VAGABONDED-ExtraBold.woff2') format('woff2'),
+        url('/other_resources/fonts/subset-VAGABONDED-ExtraBold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Phlatt Grotesk';
+    src: url('/other_resources/fonts/subset-PhlattGrotesk-Regular.woff2') format('woff2'),
+        url('/other_resources/fonts/subset-PhlattGrotesk-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+  
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-}
-
-@font-face {
-    font-family: 'Phlatt';
-    src: url('other_resources/fonts/body/texts/phlattgrotesk-regular.otf') format('opentype');
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'Handil Pro';
-    src: url('other_resources/fonts/heading/titles/HandilPro-Medium.otf') format('opentype');
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'VagabondedBold';
-    src: url('other_resources/fonts/heading/titles/VagabondedBold.otf') format('opentype');
-    font-style: normal;
-    font-weight: bold;
-}
-
-@font-face {
-    font-family: 'VagabondedExtraBold';
-    src: url('other_resources/fonts/heading/titles/VagabondedExtraBold.otf') format('opentype');
-    font-style: normal;
-    font-weight: bolder;
 }
 
 
@@ -64,20 +71,20 @@ body{
 
 .title h1{
     margin-bottom: 5px;
-    font-family: 'VagabondedExtraBold';
+    font-family: 'VAGABONDED ExtBd';
     color: white;
     font-size: 50px;
 }
 
 .title h2{
     margin-bottom: 5px;
-    font-family: 'VagabondedBold';
+    font-family: 'VAGABONDED', sans-serif;
     color: white;
     font-size: 20px;
 }
 
 .title p{
-    font-family: 'Phlatt';
+    font-family: 'Phlatt Grotesk', sans-serif;
     color: white;
     font-size: 15pxpx;
 }
