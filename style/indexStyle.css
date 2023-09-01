@@ -2,13 +2,34 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: Helvetica, sans-serif;
 }
-/* 
-.container{
-    position: relative;
-    text-align: center;
-} */
+
+@font-face {
+    font-family: 'Phlatt';
+    src: url('other_resources/fonts/body/texts/phlattgrotesk-regular.otf') format('opentype');
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Handil Pro';
+    src: url('other_resources/fonts/heading/titles/HandilPro-Medium.otf') format('opentype');
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'VagabondedBold';
+    src: url('other_resources/fonts/heading/titles/VagabondedBold.otf') format('opentype');
+    font-style: normal;
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: 'VagabondedExtraBold';
+    src: url('other_resources/fonts/heading/titles/VagabondedExtraBold.otf') format('opentype');
+    font-style: normal;
+    font-weight: bolder;
+}
+
 
 body{
     min-height:100vh;
@@ -42,9 +63,23 @@ body{
 }
 
 .title h1{
-    
+    margin-bottom: 5px;
+    font-family: 'VagabondedExtraBold';
     color: white;
+    font-size: 50px;
+}
 
+.title h2{
+    margin-bottom: 5px;
+    font-family: 'VagabondedBold';
+    color: white;
+    font-size: 20px;
+}
+
+.title p{
+    font-family: 'Phlatt';
+    color: white;
+    font-size: 15pxpx;
 }
 
 .header{
@@ -146,7 +181,8 @@ body{
 }
 
 .img-txt p {
-    font-size: 10px;
+    font-family: "Phlatt", sans-serif;
+    font-size: 15px;
     color: #FF4200;
 }
 
