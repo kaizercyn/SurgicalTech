@@ -75,7 +75,8 @@ h1{
     left:0;
     width:100%;
     padding: 20px 100px;
-    display: flex;
+    display: inline;
+    margin-right: 20px;
     justify-content: space-between;
     align-items: center;
     z-index: 100;
@@ -89,4 +90,12 @@ h1{
     margin-left: 40px;
 }
 
+.bottom img{
+    width: 3in;
+    height: 3in;
+    position: fixed;
+    bottom: 0;
+    margin-right: 20px;
+    ;
+}
 
