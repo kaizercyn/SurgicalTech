@@ -7,9 +7,52 @@
 
 body{
     min-height:100vh;
-    background-color: black
+    background-color: black;
+    background: url(/other_resources/stlukes.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
 }
 
-h1{
-    color: antiquewhite;
+.header{
+    position:fixed;
+    top:0;
+    left:0;
+    width:100%;
+    padding: 20px 100px;
+    background: rgb(185, 184, 184);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
 }
+
+.logo{
+    font-size: 32px;
+    color: white;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+.topbar a{
+    position:relative;
+    font-size: 18px;
+    color: white;
+    font-weight: 200;
+    text-decoration: none;
+    margin-left: 40px;
+}
+
+.topbar a::before{
+    content: '';
+    position: absolute;
+    top: 100%;
+    left:0;
+    width:0%;
+    height:2px;
+    background-color: white;
+}
+
+.topbar a:hover::before{
+    width:100%
+}
+
