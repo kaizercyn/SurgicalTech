@@ -125,6 +125,7 @@ body{
 
 .reflist a,
 .subsection p {
+    text-decoration: none;
     color: #c4c4c4;
     font-family: 'Phlatt Grotesk';
     text-align: justify;
@@ -136,28 +137,25 @@ body{
 .subsection h3,
 .reflist h3{
     margin-bottom: 5px;
+    margin-top: 5px;
     font-family: 'Nyght Serif';
-    color: #c4c4c4;
-}
-
-.reflist a { 
-    text-decoration: none;
     color: #c4c4c4;
 }
 
 
 .img{
     text-align: center;
+    margin: 10px;
 }
 
 .img img{
-    max-width: 50%; 
+    max-width: 100%; 
     height: auto;
-    margin: 20 px;
 }
 
 .main-img{
     text-align: center;
+
 }
 
 .main-img img{
