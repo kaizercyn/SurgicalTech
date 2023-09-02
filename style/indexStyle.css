@@ -1,31 +1,31 @@
 @font-face {
     font-family: 'Handil Pro';
-    src: url('/other_resources/fonts/subset-HandilPro-Medium.woff2') format('woff2'),
-        url('/other_resources/fonts/subset-HandilPro-Medium.woff') format('woff');
+    src: url('../other_resources/fonts/subset-HandilPro-Medium.woff2') format('woff2'),
+        url('../other_resources/fonts/subset-HandilPro-Medium.woff') format('woff');
     font-weight: 500;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'Nyght Serif';
-    src: url('/other_resources/NyghtSerif-Regular.woff2') format('woff2'),
-        url('/other_resources/fonts/NyghtSerif-Regular.woff') format('woff');
+    src: url('../other_resources/fonts/NyghtSerif-Regular.woff2') format('woff2'),
+        url('../other_resources/fonts/NyghtSerif-Regular.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'VAGABONDED ExtBd';
-    src: url('/other_resources/fonts/subset-VAGABONDED-ExtraBold.woff2') format('woff2'),
-        url('/other_resources/fonts/subset-VAGABONDED-ExtraBold.woff') format('woff');
+    src: url('../other_resources/fonts/subset-VAGABONDED-ExtraBold.woff2') format('woff2'),
+        url('../other_resources/fonts/subset-VAGABONDED-ExtraBold.woff') format('woff');
     font-weight: bold;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'Phlatt Grotesk';
-    src: url('/other_resources/fonts/subset-PhlattGrotesk-Regular.woff2') format('woff2'),
-        url('/other_resources/fonts/subset-PhlattGrotesk-Regular.woff') format('woff');
+    src: url('../other_resources/fonts/subset-PhlattGrotesk-Regular.woff2') format('woff2'),
+        url('../other_resources/fonts/subset-PhlattGrotesk-Regular.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 }
@@ -212,7 +212,7 @@ body{
 .img-txt p:hover{
     opacity: 1;
 }
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 767px) {
     .header {
         background-color:rgba(0,0,0,0);
     }
