@@ -160,7 +160,7 @@ body{
 @media screen and (max-width:550px){
 
     .header {
-        background-color:rgb(131, 255, 141);
+        background-color:#43715B;
     }
 
     .header img{
@@ -186,16 +186,17 @@ body{
         display: none;
         position: absolute;
         font-size: 5vw;
-        background-color:rgba(0,0,0,0);
+        background-color:rgba(0, 0, 0,0);
         min-width: 300px;
         padding: 10px;
         z-index: 1;
     }
     .topbar a{
-        color: rgb(185, 185, 183);
+        color: #feddd6;
     }
     .header:hover .topbar{
         display: inline-block;
+        color:#f2b6ad;
         transition: 1s;
     }
     .header:hover .logo{
@@ -207,9 +208,36 @@ body{
         transition: .3s;
     }
     body{
-        background-color: white;
+        background-color: #43715B;
+    }
+    .details hr{
+        border: none;
+        border-top: 2px solid #f2b6ad;
+        margin: 20px 50px;
+    }
+    .subsection{
+        padding-right: 10px;
+        padding-left: 10px;
+        padding-top: 20px;
+        margin-bottom: 10px;
+    }
+    
+    .subsection p {
+        text-decoration: none;
+        color: #303030;
+        font-family: 'Phlatt Grotesk';
+        text-align: justify;
+        text-indent: 30px;
+        margin-top: 10px;
+    }
+    
+    .subsection h2{
+        margin-bottom: 5px;
+        margin-top: 5px;
+        font-family: 'Nyght Serif';
+        color: #f2b6ad;
     }
     .bottom{
-        background-color:rgb(131, 255, 141);;
+        background-color:#f2b6ad;
     }
 }

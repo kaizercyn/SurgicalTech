@@ -161,65 +161,92 @@ body{
 .list a{
     text-decoration: none;
 }
-@media screen and(max-width:550px){
-   
-.header {
-    background-color:rgb(131, 255, 141);
-}
 
-.header img{
-    height:50%;
-    width: 50%;
-}
+@media screen and (max-width:550px){
 
-.topbar{
-    display:none;
-}
-.logo{
-    display: inline-block;
-    position: relative;
-    margin: auto;
-    width: 20%;
-    height: 20%;
-}
-.logo img{
-    width: 50%;
-    height: 50%;
-}
-.topbar{
-    display: none;
-    position: absolute;
-    font-size: 5vw;
-    background-color:rgba(0,0,0,0);
-    min-width: 300px;
-    padding: 10px;
-    z-index: 1;
-}
-.topbar a{
-    color: rgb(185, 185, 183);
-}
-.header:hover .topbar{
-    display: inline-block;
-    transition: 1s;
-}
-.header:hover .logo{
-    opacity: 0.0001;
-    transition: .3s;
-}
-.header:hover .logoselect{
-    opacity: 0.00001;
-    transition: .3s;
-}
-body{
-    background-color: white;
-}
-.details p{
-    color: #151515;
-}
-.details h1{
-    color: #151515;
-}
-details a{
-    color: #151515;
-}
+    .header {
+        background-color:#43715B;
+    }
+
+    .header img{
+        height:50%;
+        width: 50%;
+    }
+
+    .topbar{
+        display:none;
+    }
+    .logo{
+        display: inline-block;
+        position: relative;
+        margin: auto;
+        width: 20%;
+        height: 20%;
+    }
+    .logo img{
+        width: 50%;
+        height: 50%;
+    }
+    .topbar{
+        display: none;
+        position: absolute;
+        font-size: 5vw;
+        background-color:rgba(0, 0, 0,0);
+        min-width: 300px;
+        padding: 10px;
+        z-index: 1;
+    }
+    .topbar a{
+        color: #feddd6;
+    }
+    .header:hover .topbar{
+        display: inline-block;
+        color:#f2b6ad;
+        transition: 1s;
+    }
+    .header:hover .logo{
+        opacity: 0.0001;
+        transition: .3s;
+    }
+    .header:hover .logoselect{
+        opacity: 0.00001;
+        transition: .3s;
+    }
+    body{
+        background-color: #f2b6ad;
+    }
+    .details hr{
+        border: none;
+        border-top: 2px solid #869f76;
+        margin: 20px 50px;
+    }
+
+    .list{
+        padding-top: 5px;
+        padding-bottom: 5px; 
+        margin-left: 10px;
+    }
+
+    .list img{
+        height: 100px;
+        width: 100px;
+        margin-right: 10px;
+    }
+    .list li{
+        padding: 3px;;
+
+    }
+    .list h2{
+        font-family: 'Nyght Serif';
+        color: white;
+        font-size: 15px;
+    }
+    .list h2:hover{
+        font-family: 'Nyght Serif';
+        color: #43715B;
+        font-size: 18px;
+    }
+    .bottom{
+        background-color:#869f76;
+    }
 }
