@@ -253,7 +253,7 @@ height: auto;
  
 @media screen and (max-width:550px){
     .header {
-        background-color:rgba(131, 255, 142, 0.767);
+        background-color:rgb(131, 255, 141);
     }
 
     .header img{
@@ -279,7 +279,7 @@ height: auto;
         display: none;
         position: absolute;
         font-size: 5vw;
-        background-color:rgba(0,0,0,0);
+        background-color:rgba(0, 0, 0,0);
         min-width: 300px;
         padding: 10px;
         z-index: 1;
@@ -298,6 +298,18 @@ height: auto;
     .header:hover .logoselect{
         opacity: 0.00001;
         transition: .3s;
+    }
+    .details {
+        background-color: rgb(255, 255, 255);
+    }
+    .details h1{
+        color: #000;
+    }
+    body{
+        background-color: white;
+    }
+    .bottom{
+        background-color:rgb(131, 255, 141);
     }
     }
 
