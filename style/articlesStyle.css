@@ -220,32 +220,31 @@ body{
         border-top: 2px solid #869f76;
         margin: 20px 50px;
     }
-    .subsection{
-        padding-right: 10px;
-        padding-left: 10px;
-        padding-top: 20px;
-        margin-bottom: 10px;
+
+    .list{
+        padding-top: 5px;
+        padding-bottom: 5px; 
+        margin-left: 10px;
     }
-    
-    .subsection p {
-        text-decoration: none;
-        color: #303030;
-        font-family: 'Phlatt Grotesk';
-        text-align: justify;
-        text-indent: 30px;
-        margin-top: 10px;
+
+    .list img{
+        height: 100px;
+        width: 100px;
+        margin-right: 10px;
     }
-    
-    .subsection h2{
-        margin-bottom: 5px;
-        margin-top: 5px;
+    .list li{
+        padding: 3px;;
+
+    }
+    .list h2{
         font-family: 'Nyght Serif';
-        color: #f2b6ad;
+        color: white;
+        font-size: 15px;
     }
     .list h2:hover{
         font-family: 'Nyght Serif';
         color: #43715B;
-        font-size: 23px;
+        font-size: 18px;
     }
     .bottom{
         background-color:#869f76;
