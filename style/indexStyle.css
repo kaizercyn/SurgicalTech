@@ -35,7 +35,7 @@ body{
     background-color: black;
     background-size: cover;
     background-position: center;
-    overflow: hidden;
+    overflow: auto;
 }
 
 .main-bg{
@@ -159,7 +159,6 @@ body{
     width: 200px; 
     height: 100px;
     margin: 20px;
-
 }
 
 
@@ -168,10 +167,6 @@ body{
     margin: 0px, 10px;
     cursor: pointer;
 }
-
-
-
-
 
 .img-txt{
     width:200px;
@@ -196,8 +191,6 @@ body{
     text-align: center;
 }
 
-
-
 .img-txt:hover{
     opacity: 1;
 }
@@ -206,6 +199,9 @@ body{
     opacity: 1;
 }
 @media screen and (max-width: 550px) {
+    body{
+        overflow-y:
+    }
     .header {
         background-color:rgba(0,0,0,0);
     }
@@ -276,36 +272,17 @@ body{
         color: white;
     }
     #image-container{
-        overflow: hidden;
-        position: absolute;
-        top: 20%;
+        margin-top:200px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
     }
-    
-    @keyframes image-container {
-        0%{left: 0;}
-        24%{left: 0;}
-        26%{left: -100%;}
-        49%{left: -100%;}
-        51%{left: -200%;}
-        74%{left: -200%;}
-        76%{left: -300%;}
-        99%{left: -300%;}
-        100%{left: 0;}
+
+    .image-title{
+        text-align: center;
     }
-    #image-container figure{
-        width: 400%;
-        position: relative;
-        animation: 12s image-container infinite;
-    }
-    #image-container figure:hover{
-        animation-play-state: paused;
-    }
-    #image-container figure img{
-        width: 25%;
-        height: 100px;
-        float: left;
-        display: inline-flex;
-    }
-    
-   }
+
+
+
+}
     
