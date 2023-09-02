@@ -161,3 +161,53 @@ body{
 .list a{
     text-decoration: none;
 }
+@media screen and(max-width:550px){}
+   
+.header {
+    background-color:rgba(131, 255, 142, 0.767);
+}
+
+.header img{
+    height:50%;
+    width: 50%;
+}
+
+.topbar{
+    display:none;
+}
+.logo{
+    display: inline-block;
+    position: relative;
+    margin: auto;
+    width: 20%;
+    height: 20%;
+}
+.logo img{
+    width: 50%;
+    height: 50%;
+}
+.topbar{
+    display: none;
+    position: absolute;
+    font-size: 5vw;
+    background-color:rgba(0,0,0,0);
+    min-width: 300px;
+    padding: 10px;
+    z-index: 1;
+}
+.topbar a{
+    color: rgb(185, 185, 183);
+}
+.header:hover .topbar{
+    display: inline-block;
+    transition: 1s;
+}
+.header:hover .logo{
+    opacity: 0.0001;
+    transition: .3s;
+}
+.header:hover .logoselect{
+    opacity: 0.00001;
+    transition: .3s;
+}
+

@@ -198,12 +198,15 @@ body{
 .img-txt p:hover{
     opacity: 1;
 }
+.content {
+    display: none;
+}
 @media screen and (max-width: 550px) {
     body{
-        overflow: auto;
+        overflow: hidden;
     }
     .header {
-        background-color:rgba(0,0,0);
+        background-color:rgba(131, 255, 142, 0.767);
     }
 
     .header img{
@@ -229,13 +232,13 @@ body{
         display: none;
         position: absolute;
         font-size: 5vw;
-        background-color:rgba(0,0,0),0;
+        background-color:rgba(0,0,0,0);
         min-width: 300px;
         padding: 10px;
         z-index: 1;
     }
     .topbar a{
-        color: lightgoldenrodyellow;
+        color: rgb(185, 185, 183);
     }
     .header:hover .topbar{
         display: inline-block;
@@ -250,39 +253,70 @@ body{
         transition: .3s;
     }
     .main-bg img{
-        opacity: 1;     
+        opacity: .2;     
     }
     .main-bg{
-        background-color:rgba(232, 136, 252, .1);
+        background-color:rgb(255, 255, 255);
     }
     .title{
+        display: block;
+        position: absolute;
         left: 40px;
         right: 50px;
-        top: 71%;
+        top: 20%;
         font-size: 5vw;
     }
     .title h1{
         font-size: 10vw;
-        color: white;
+        color: lightslategray;
     }
     .title h2 {
-        color:white;
+        color:lightslategray;
     }
     .title p{
-        color: white;
+        color: lightslategray;
     }
     #image-container{
-        margin-top:200px;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
+        max-width: 500px;
+        height: 220px;
+        margin: auto;     
+        padding-left: 10px;
+        padding-right: 10px;
+        display: block;
+        position: absolute;
+        top: 20%;
+        overflow: hidden;
+    }
+    .img-txt {
+        display: none;
+    }
+    #image-container img{
+        max-width: 500px;
+        height: auto;
+        margin: 10px;
+        display: inline-block;
+    
     }
 
     .image-title{
-        text-align: center;
+        max-width: 50px;
+        height: 50px;
+        margin: 10px;
+        position: relative;
+        display: inline-block;
     }
-
-
-
+    .content{
+        display: none;
+        position: absolute;
+        min-width: 300px;
+        z-index: 1;
+    }
+    
+    .image-title:hover .content{
+        display: inline-block;
+        
+        
+    }
 }
+
     
