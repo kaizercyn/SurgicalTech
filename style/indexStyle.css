@@ -64,22 +64,24 @@ body{
 .title h1{
     margin-bottom: 5px;
     font-family: 'Nyght Serif';
-    color: #c4c4c4;
+    color: white;
     font-size: 60px;
 }
 
 .title h2{
     margin-bottom: 5px;
     font-family: 'Nyght Serif';
-    color: #c4c4c4;
+    color: white;
     font-size: 20px;
     
 }
 
 .title p{
     font-family: 'Handil Pro', sans-serif;
-    color:#c4c4c4;
+    color:white;
     font-size: 12px;
+    font-kerning: normal;
+    font-weight: lighter;
 }
 
 .header{
@@ -274,9 +276,35 @@ body{
         color: white;
     }
     #image-container{
-        display: none;
+        overflow: hidden;
+        position: absolute;
+        top: 20%;
     }
-
-
-}
+    
+    @keyframes image-container {
+        0%{left: 0;}
+        24%{left: 0;}
+        26%{left: -100%;}
+        49%{left: -100%;}
+        51%{left: -200%;}
+        74%{left: -200%;}
+        76%{left: -300%;}
+        99%{left: -300%;}
+        100%{left: 0;}
+    }
+    #image-container figure{
+        width: 400%;
+        position: relative;
+        animation: 12s image-container infinite;
+    }
+    #image-container figure:hover{
+        animation-play-state: paused;
+    }
+    #image-container figure img{
+        width: 25%;
+        height: 100px;
+        float: left;
+        display: inline-flex;
+    }
+   }
     
