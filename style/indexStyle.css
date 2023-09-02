@@ -198,15 +198,12 @@ body{
 .img-txt p:hover{
     opacity: 1;
 }
-.content {
-    display: none;
-}
 @media screen and (max-width: 550px) {
     body{
         overflow: hidden;
     }
     .header {
-        background-color:rgba(131, 255, 142, 0.767);
+        background-color:rgb(131, 255, 141);
     }
 
     .header img{
@@ -289,33 +286,6 @@ body{
     }
     .img-txt {
         display: none;
-    }
-    #image-container img{
-        max-width: 500px;
-        height: auto;
-        margin: 10px;
-        display: inline-block;
-    
-    }
-
-    .image-title{
-        max-width: 50px;
-        height: 50px;
-        margin: 10px;
-        position: relative;
-        display: inline-block;
-    }
-    .content{
-        display: none;
-        position: absolute;
-        min-width: 300px;
-        z-index: 1;
-    }
-    
-    .image-title:hover .content{
-        display: inline-block;
-        
-        
     }
 }
 
