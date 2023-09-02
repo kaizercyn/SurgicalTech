@@ -234,5 +234,73 @@ body{
         transition: .3s;
     }
 
+    .details{
+        text-align: center;
+        padding-top: 120px;
+        padding-bottom: 50px;
+    }
+    
+    .details p{
+        font-family: 'Handil Pro';
+        margin-bottom: 3px;
+        margin-top: 20px;
+        font-size: 10px;
+        color: #c4c4c4;
+    }
+    
+    .details #date{
+        font-style: italic;
+        font-weight: lighter;
+        font-size: 10px;
+    }
+    
+    .details h1{
+        font-family: 'Nyght Serif';
+        font-size: 20px;
+        color: white;
+    }
+    
+    .details hr{
+        border: none;
+        border-top: 2px solid #FF4200;
+        margin: 20px 50px;
+    }
+    
+    .subsection,
+    .reflist{
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-top: 10px;
+    }
+
+    .bottom{
+        position:relative;
+        bottom:0;
+        left:0;
+        width:100%;
+        padding: 30px 20px;
+        background-color: #FF4200;
+    }
+    
+    .bottom p{
+        text-align: right;
+        font-family: 'Phlatt Grotesk';
+        font-size: 10px;
+        color: white;
+    }
+
+    .main-img {
+        width: 100%;
+        max-width: 100%;
+        display: block;
+        margin: auto;
+    }
+    
+    .main-img img {
+        width: 100%;
+        height: auto;
+    }
+    
+
 
 }
