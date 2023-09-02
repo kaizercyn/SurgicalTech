@@ -65,7 +65,7 @@ body{
     position:sticky;
     font-family: 'Handil Pro';
     font-size: 16px;
-    color: #c4c4c4;
+    color: white;
     font-weight: 200;
     text-decoration: none;
     margin-left: 20px;
@@ -87,3 +87,77 @@ body{
     width:100%
 }
 
+.details{
+    text-align: center;
+    padding-top: 180px;
+    padding-bottom: 10px;
+}
+
+.details p{
+    font-family: 'Handil Pro';
+    margin-bottom: 5px;
+    margin-top: 20px;
+    color: white;
+}
+.details h1{
+    font-family: 'Nyght Serif';
+    color: white;
+    font-size: 80px;
+}
+
+.details hr{
+    border: none;
+    border-top: 2px solid #FF4200;
+    margin: 20px 50px;
+}
+
+
+.bottom{
+    position:relative;
+    bottom:0;
+    left:0;
+    width:100%;
+    padding: 30px 20px;
+    background-color: #FF4200;
+}
+
+.bottom p{
+    text-align: right;
+    font-family: 'Phlatt Grotesk';
+    font-size: 10px;
+    color: white;
+}
+
+.list{
+    padding-top: 20px;
+    padding-bottom: 10px; 
+}
+
+.list li{
+    display: flex;
+    align-items: center;
+    padding: 20px 10px;
+    margin-left: 100px;
+}
+
+.list img{
+    height: 200px;
+    width: 200px;
+    margin-right: 50px;
+}
+
+.list h2{
+    font-family: 'Nyght Serif';
+    color: white;
+    font-size: 20px;
+}
+
+.list h2:hover{
+    font-family: 'Nyght Serif';
+    color: #FF4200;
+    font-size: 23px;
+}
+
+.list a{
+    text-decoration: none;
+}
