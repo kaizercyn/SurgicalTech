@@ -230,8 +230,7 @@ body{
     }
     .topbar{
         display: none;
-        position: relative;
-        right: 50px;
+        position: absolute;
         font-size: 5vw;
         background-color:rgba(0,0,0,0);
         min-width: 300px;
@@ -254,20 +253,31 @@ body{
         transition: .3s;
     }
     .main-bg img{
-        opacity: .3;    
+        opacity: .001;     
     }
     .main-bg{
-        background-color: rgba(0,0,0,0);
+        background-color:rgba(232, 136, 252, 0.705);
     }
     .title{
         left: 50px;
         right: 50px;
-        bottom: 50px;
-        top: 120px;
+        top: 60%;
         font-size: 5vw;
     }
     .title h1{
         font-size: 10vw;
+        color: white;
     }
+    .title h2 {
+        color: white;
+    }
+    .title p{
+        color: white;
+    }
+    #image-container{
+        display: none;
+    }
+
+
 }
     
