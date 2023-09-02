@@ -252,10 +252,10 @@ body{
         transition: .3s;
     }
     .main-bg img{
-        opacity: .001;     
+        opacity: 1;     
     }
     .main-bg{
-        background-color:rgba(232, 136, 252, 0.705);
+        background-color:rgba(232, 136, 252, .1);
     }
     .title{
         left: 50px;
