@@ -198,6 +198,9 @@ body{
 .img-txt p:hover{
     opacity: 1;
 }
+.content {
+    display: none;
+}
 @media screen and (max-width: 550px) {
     body{
         overflow: hidden;
@@ -302,18 +305,18 @@ body{
         position: relative;
         display: inline-block;
     }
-    .imagine-title img{
+    .content{
         display: none;
         position: absolute;
-        min-width: 400px;
+        min-width: 300px;
         z-index: 1;
     }
-    .image-title:hover .image-title img{
-        display: block;
-        position: absolute
-        
     
+    .image-title:hover .content{
+        display: inline-block;
+        
+        
     }
-
 }
+
     
