@@ -118,9 +118,13 @@ body{
 
 .subsection,
 .reflist{
-    padding-right: 100px;
-    padding-left: 100px;
+    padding-right: 300px;
+    padding-left: 300px;
     padding-top: 20px;
+}
+
+.reflist{
+    margin-bottom: 30px;
 }
 
 .reflist a,
@@ -131,6 +135,7 @@ body{
     text-align: justify;
     text-indent: 30px;
     margin-top: 10px;
+    line-height: 1.5em;
 }
 
 .subsection h2, 
@@ -159,6 +164,22 @@ body{
 }
 
 .main-img img{
-    max-width: 50%; 
+    max-width: 100%; 
     height: auto;
+}
+
+.bottom{
+    position:relative;
+    bottom:0;
+    left:0;
+    width:100%;
+    padding: 30px 20px;
+    background-color: #FF4200;
+}
+
+.bottom p{
+    text-align: right;
+    font-family: 'Phlatt Grotesk';
+    font-size: 10px;
+    color: white;
 }

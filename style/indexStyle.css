@@ -64,22 +64,24 @@ body{
 .title h1{
     margin-bottom: 5px;
     font-family: 'Nyght Serif';
-    color: #c4c4c4;
+    color: white;
     font-size: 60px;
 }
 
 .title h2{
     margin-bottom: 5px;
     font-family: 'Nyght Serif';
-    color: #c4c4c4;
+    color: white;
     font-size: 20px;
     
 }
 
 .title p{
     font-family: 'Handil Pro', sans-serif;
-    color:#c4c4c4;
+    color:white;
     font-size: 12px;
+    font-kerning: normal;
+    font-weight: lighter;
 }
 
 .header{
