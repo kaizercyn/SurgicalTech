@@ -8,8 +8,8 @@
 
 @font-face {
     font-family: 'Nyght Serif';
-    src: url('fonts/NyghtSerif-Regular.woff2') format('woff2'),
-        url('fonts/NyghtSerif-Regular.woff') format('woff');
+    src: url('/other_resources/NyghtSerif-Regular.woff2') format('woff2'),
+        url('/other_resources/fonts/NyghtSerif-Regular.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 }
@@ -100,8 +100,6 @@ body{
     justify-content: space-between;
     align-items: center;
     z-index: 100;
-
-   
 }
 
 .header img{
@@ -161,14 +159,13 @@ body{
     width: 100%;
     display: flex;
     justify-content: center;
-    background-color: #FF4200;
-    padding: 0px;
+    background-color: #000000;
 }
 
 #image-container img {
     width: 200px; 
     height: 100px;
-    margin: 0px;
+    margin: 20px;
 
 }
 
@@ -179,30 +176,42 @@ body{
     cursor: pointer;
 }
 
+
+
+
+
 .img-txt{
     width:200px;
     height: 100px;
-    top: 0;
-    left: 0;
+    top: 20px;
+    left: 20px;
     position: absolute;
     background: rgba(0,0,0,0.6);
     display: flex;
     justify-content: center;
+    opacity: 0.5;
     align-items: center;
-    opacity: 0;
     transition: 0.3s;
 }
 
 .img-txt p {
     font-family: 'Handil Pro';
+    opacity: 0;
     font-size: 15px;
     color: #FF4200;
+    padding: 200px 100px;
+    text-align: center;
 }
+
+
 
 .img-txt:hover{
     opacity: 1;
 }
 
+.img-txt p:hover{
+    opacity: 1;
+}
 @media screen and (max-width: 500px) {
     .header {
         background-color:rgba(0,0,0,0);
