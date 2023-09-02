@@ -162,7 +162,8 @@ body{
     text-decoration: none;
 }
 
-@media screen and(max-width:550px){
+@media screen and (max-width:550px){
+
     .header {
         background-color:#43715B;
     }
@@ -172,42 +173,81 @@ body{
         width: 50%;
     }
 
-.topbar{
-    display:none;
+    .topbar{
+        display:none;
+    }
+    .logo{
+        display: inline-block;
+        position: relative;
+        margin: auto;
+        width: 20%;
+        height: 20%;
+    }
+    .logo img{
+        width: 50%;
+        height: 50%;
+    }
+    .topbar{
+        display: none;
+        position: absolute;
+        font-size: 5vw;
+        background-color:rgba(0, 0, 0,0);
+        min-width: 300px;
+        padding: 10px;
+        z-index: 1;
+    }
+    .topbar a{
+        color: #feddd6;
+    }
+    .header:hover .topbar{
+        display: inline-block;
+        color:#f2b6ad;
+        transition: 1s;
+    }
+    .header:hover .logo{
+        opacity: 0.0001;
+        transition: .3s;
+    }
+    .header:hover .logoselect{
+        opacity: 0.00001;
+        transition: .3s;
+    }
+    body{
+        background-color: #f2b6ad;
+    }
+    .details hr{
+        border: none;
+        border-top: 2px solid #869f76;
+        margin: 20px 50px;
+    }
+    .subsection{
+        padding-right: 10px;
+        padding-left: 10px;
+        padding-top: 20px;
+        margin-bottom: 10px;
+    }
+    
+    .subsection p {
+        text-decoration: none;
+        color: #303030;
+        font-family: 'Phlatt Grotesk';
+        text-align: justify;
+        text-indent: 30px;
+        margin-top: 10px;
+    }
+    
+    .subsection h2{
+        margin-bottom: 5px;
+        margin-top: 5px;
+        font-family: 'Nyght Serif';
+        color: #f2b6ad;
+    }
+    .list h2:hover{
+        font-family: 'Nyght Serif';
+        color: #43715B;
+        font-size: 23px;
+    }
+    .bottom{
+        background-color:#869f76;
+    }
 }
-.logo{
-    display: inline-block;
-    position: relative;
-    margin: auto;
-    width: 20%;
-    height: 20%;
-}
-.logo img{
-    width: 50%;
-    height: 50%;
-}
-.topbar{
-    display: none;
-    position: absolute;
-    font-size: 5vw;
-    background-color:rgba(0,0,0,0);
-    min-width: 300px;
-    padding: 10px;
-    z-index: 1;
-}
-.topbar a{
-    color: rgb(185, 185, 183);
-}
-.header:hover .topbar{
-    display: inline-block;
-    transition: 1s;
-}
-.header:hover .logo{
-    opacity: 0.0001;
-    transition: .3s;
-}
-.header:hover .logoselect{
-    opacity: 0.00001;
-    transition: .3s;
-}
-
