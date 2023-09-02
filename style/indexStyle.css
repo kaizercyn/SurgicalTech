@@ -235,7 +235,7 @@ body{
         z-index: 1;
     }
     .topbar a{
-        color: lightgoldenrodyellow;
+        color: rgb(185, 185, 183);
     }
     .header:hover .topbar{
         display: inline-block;
@@ -250,11 +250,10 @@ body{
         transition: .3s;
     }
     .main-bg img{
-        opacity: 1;
-        display: none;     
+        opacity: .2;     
     }
     .main-bg{
-        background-color:rgba(131, 255, 142, 0.767);
+        background-color:rgb(255, 255, 255);
     }
     .title{
         display: block;
@@ -275,26 +274,46 @@ body{
         color: lightslategray;
     }
     #image-container{
-        max-width: 550px;
-        height: 420px;
-        display: none;
+        max-width: 500px;
+        height: 220px;
+        margin: auto;     
+        padding-left: 10px;
+        padding-right: 10px;
+        display: block;
         position: absolute;
-        bottom: 20%;
+        top: 20%;
+        overflow: hidden;
+    }
+    .img-txt {
+        display: none;
     }
     #image-container img{
         max-width: 500px;
         height: auto;
         margin: 10px;
+        display: inline-block;
+    
     }
 
     .image-title{
-        max-width: 500px;
-        height: auto;
+        max-width: 50px;
+        height: 50px;
         margin: 10px;
-        text-align: center;
+        position: relative;
+        display: inline-block;
     }
-
-
+    .imagine-title img{
+        display: none;
+        position: absolute;
+        min-width: 400px;
+        z-index: 1;
+    }
+    .image-title:hover .image-title img{
+        display: block;
+        position: absolute
+        
+    
+    }
 
 }
     
