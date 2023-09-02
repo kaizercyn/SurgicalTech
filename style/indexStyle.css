@@ -250,7 +250,8 @@ body{
         transition: .3s;
     }
     .main-bg img{
-        opacity: 1;     
+        opacity: 1;
+        display: none;     
     }
     .main-bg{
         background-color:rgba(131, 255, 142, 0.767);
