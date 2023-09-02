@@ -158,13 +158,15 @@ body{
     height: auto;
 }
 
-.main-img{
-    text-align: center;
-
+.main-img {
+    width: 100%;
+    max-width: 100%;
+    display: block;
+    margin: 0 auto;
 }
 
-.main-img img{
-    max-width: 100%; 
+.main-img img {
+    width: 100%;
     height: auto;
 }
 
