@@ -1,31 +1,23 @@
 @font-face {
     font-family: 'Handil Pro';
-    src: url('/other_resources/fonts/subset-HandilPro-Medium.woff2') format('woff2'),
-        url('/other_resources/fonts/subset-HandilPro-Medium.woff') format('woff');
+    src: url('../other_resources/fonts/subset-HandilPro-Medium.woff2') format('woff2'),
+        url('../other_resources/fonts/subset-HandilPro-Medium.woff') format('woff');
     font-weight: 500;
     font-style: normal;
 }
 
 @font-face {
-    font-family: 'VAGABONDED';
-    src: url('/other_resources/fonts/subset-VAGABONDED-Bold.woff2') format('woff2'),
-        url('/other_resources/fonts/subset-VAGABONDED-Bold.woff') format('woff');
-    font-weight: bold;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'VAGABONDED ExtBd';
-    src: url('/other_resources/fonts/subset-VAGABONDED-ExtraBold.woff2') format('woff2'),
-        url('/other_resources/fonts/subset-VAGABONDED-ExtraBold.woff') format('woff');
-    font-weight: bold;
+    font-family: 'Nyght Serif';
+    src: url('../other_resources/fonts/NyghtSerif-Regular.woff2') format('woff2'),
+        url('../other_resources/fonts/NyghtSerif-Regular.woff') format('woff');
+    font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'Phlatt Grotesk';
-    src: url('/other_resources/fonts/subset-PhlattGrotesk-Regular.woff2') format('woff2'),
-        url('/other_resources/fonts/subset-PhlattGrotesk-Regular.woff') format('woff');
+    src: url('../other_resources/fonts/subset-PhlattGrotesk-Regular.woff2') format('woff2'),
+        url('../other_resources/fonts/subset-PhlattGrotesk-Regular.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 }
@@ -64,29 +56,30 @@ body{
 
 .title{
     position: absolute;
-    top: 250px;
+    top: 200px;
     bottom: 50%;
     left: 100px;
 }
 
 .title h1{
     margin-bottom: 5px;
-    font-family: 'VAGABONDED ExtBd';
-    color: white;
-    font-size: 50px;
+    font-family: 'Nyght Serif';
+    color: #c4c4c4;
+    font-size: 60px;
 }
 
 .title h2{
     margin-bottom: 5px;
-    font-family: 'VAGABONDED', sans-serif;
-    color: white;
+    font-family: 'Nyght Serif';
+    color: #c4c4c4;
     font-size: 20px;
+    
 }
 
 .title p{
-    font-family: 'Phlatt Grotesk', sans-serif;
-    color: white;
-    font-size: 15pxpx;
+    font-family: 'Handil Pro', sans-serif;
+    color:#c4c4c4;
+    font-size: 12px;
 }
 
 .header{
@@ -99,8 +92,6 @@ body{
     justify-content: space-between;
     align-items: center;
     z-index: 100;
-    background-color: #c4c4c4;
-   
 }
 
 .header img{
@@ -116,8 +107,8 @@ body{
 .topbar a{
     position:sticky;
     font-family: 'Handil Pro';
-    font-size: 18px;
-    color: rgb(0, 0, 0);
+    font-size: 16px;
+    color: #c4c4c4;
     font-weight: 200;
     text-decoration: none;
     margin-left: 20px;
@@ -160,16 +151,16 @@ body{
     width: 100%;
     display: flex;
     justify-content: center;
-    background-color: #c4c4c4;
-    padding: 0px;
+    background-color: #000000;
 }
 
 #image-container img {
     width: 200px; 
     height: 100px;
-    margin: 0px;
+    margin: 20px;
 
 }
+
 
 .image-title{
     position: relative;
@@ -177,43 +168,61 @@ body{
     cursor: pointer;
 }
 
+
+
+
+
 .img-txt{
     width:200px;
     height: 100px;
-    top: 0;
-    left: 0;
+    top: 20px;
+    left: 20px;
     position: absolute;
     background: rgba(0,0,0,0.6);
     display: flex;
     justify-content: center;
+    opacity: 0.5;
     align-items: center;
-    opacity: 0;
     transition: 0.3s;
 }
 
 .img-txt p {
-    font-family: 'Phlatt Grotesk';
+    font-family: 'Handil Pro';
+    opacity: 0;
     font-size: 15px;
     color: #FF4200;
+    padding: 200px 100px;
+    text-align: center;
 }
+
+
 
 .img-txt:hover{
     opacity: 1;
 }
 
-@media screen and (max-width: 550px) {
+.img-txt p:hover{
+    opacity: 1;
+}
+@media screen and (max-width: 767px) {
     .header {
         background-color:rgba(0,0,0,0);
-
     }
+
     .header img{
         height:50%;
         width: 50%;
     }
+
+    .topbar{
+        display:none;
+    }
     .logo{
+        display: inline-block;
+        position: relative;
         margin: auto;
-        width: 40%;
-        height: 40%;
+        width: 20%;
+        height: 20%;
     }
     .logo img{
         width: 50%;
@@ -260,6 +269,5 @@ body{
     .title h1{
         font-size: 10vw;
     }
-
 }
     
