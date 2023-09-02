@@ -203,7 +203,7 @@ body{
         overflow: hidden;
     }
     .header {
-        background-color:rgb(131, 255, 141);
+        background-color:#43715b;
     }
 
     .header img{
@@ -235,7 +235,7 @@ body{
         z-index: 1;
     }
     .topbar a{
-        color: rgb(185, 185, 183);
+        color: white;
     }
     .header:hover .topbar{
         display: inline-block;
@@ -264,27 +264,19 @@ body{
         font-size: 5vw;
     }
     .title h1{
+        margin-top: 20px;
         font-size: 10vw;
         color: lightslategray;
     }
     .title h2 {
+        margin-top: 150px;
         color:lightslategray;
     }
     .title p{
+        margin-top: 10px;
         color: lightslategray;
     }
     #image-container{
-        max-width: 500px;
-        height: 220px;
-        margin: auto;     
-        padding-left: 10px;
-        padding-right: 10px;
-        display: block;
-        position: absolute;
-        top: 20%;
-        overflow: hidden;
-    }
-    .img-txt {
         display: none;
     }
 }
