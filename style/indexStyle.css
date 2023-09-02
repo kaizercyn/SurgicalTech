@@ -229,7 +229,7 @@ body{
         display: none;
         position: absolute;
         font-size: 5vw;
-        background-color:rgba(0,0,0,0);
+        background-color:rgba(0,0,0);
         min-width: 300px;
         padding: 10px;
         z-index: 1;
