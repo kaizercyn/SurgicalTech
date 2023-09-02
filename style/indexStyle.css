@@ -200,7 +200,7 @@ body{
 }
 @media screen and (max-width: 550px) {
     body{
-        overflow-y:
+        overflow: auto;
     }
     .header {
         background-color:rgba(0,0,0,0);
