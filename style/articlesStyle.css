@@ -219,10 +219,10 @@ body{
         border-top: 2px solid #869f76;
         margin: 20px 50px;
     }
+    
 
     .list{
-        margin-left: 5px;
-        margin-right: 10px;
+       padding: 10px 5px;
     }
 
     .list img{
@@ -231,7 +231,7 @@ body{
         margin-right: 10px;
     }
     .list li{
-        padding: 3px;;
+        padding: 3px;
 
     }
     .list h2{
