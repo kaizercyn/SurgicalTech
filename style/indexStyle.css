@@ -266,15 +266,15 @@ body{
     .title h1{
         margin-top: 20px;
         font-size: 10vw;
-        color: lightslategray;
+        color: #43715B;
     }
     .title h2 {
         margin-top: 150px;
-        color:lightslategray;
+        color:#151515;
     }
     .title p{
         margin-top: 10px;
-        color: lightslategray;
+        color: #151515;
     }
     #image-container{
         display: none;
