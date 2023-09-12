@@ -189,23 +189,40 @@ body{
     margin: 10px;
     padding: 10px;
     position: relative;
-    text-decoration-color:#FF4200;
+    /* text-decoration: none; */
 
 }
 .prev {
     margin: 10px;
     padding: 10px;
     float: left;
-    text-decoration: #FF4200;
+    font-family: 'Handil Pro';
+    text-decoration: none;
 }
 
 .next {
     margin: 10px;
     padding: 10px;
     float: right;
-    text-decoration: #FF4200;
+    font-family: 'Handil Pro';
+    text-decoration: none;
+   
 }
- 
+
+.prev a:link,
+.next a:link {
+    background-color: transparent;
+    text-decoration: none;
+    color:#FF4200;
+}
+
+.prev a:visited,
+.next a:visited {
+    background-color: transparent;
+    text-decoration: none;
+    color: #FF4200;
+}
+
 @media screen and (max-width:550px){
     .header {
         background-color:#43715B;
@@ -255,7 +272,7 @@ body{
         opacity: 0.0001;
         transition: .3s;
     }
-    .header:click .logoselect{
+    .header:hover .logoselect{
         opacity: 0.00001;
         transition: .3s;
     }
@@ -294,6 +311,46 @@ body{
     margin-top: 5px;
     font-family: 'Nyght Serif';
     color: #303030;
+    }
+
+    .arrows {
+        display: inline-block;
+        margin: 10px;
+        padding: 10px;
+        position: relative;
+        /* text-decoration: none; */
+
+    }
+
+    .prev {
+        margin: 10px;
+        padding: 10px;
+        float: left;
+        font-family: 'Handil Pro';
+        text-decoration: none;
+    }
+
+    .next {
+        margin: 10px;
+        padding: 10px;
+        float: right;
+        font-family: 'Handil Pro';
+        text-decoration: none;
+
+    }
+
+    .prev a:link,
+    .next a:link {
+        background-color: transparent;
+        text-decoration: none;
+        color: #43715B;
+    }
+
+    .prev a:visited,
+    .next a:visited {
+        background-color: transparent;
+        text-decoration: none;
+        color: #43715B;
     }
 
     body{
