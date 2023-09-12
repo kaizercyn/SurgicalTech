@@ -23,13 +23,6 @@
 }
   
 
-* {
-    
-    margin: 0;
-    /* padding: 0; */
-    box-sizing: border-box;
-}
-
 
 body{
     overflow: auto;
@@ -221,6 +214,27 @@ body{
     background-color: transparent;
     text-decoration: none;
     color: #FF4200;
+}
+
+.prev a::before,
+.next a::before {
+    content: '';
+    position: absolute;
+    top: 70%;
+    left: 0;
+    width: 0%;
+    height: 2px;
+    background-color: #FF4200;
+    transition: .3s;
+}
+
+.prev a:hover::before {
+    margin-left: 10%;
+    width: 40%
+} 
+.next a:hover::before {
+margin-left: 60%;
+width: 40%;
 }
 
 @media screen and (max-width:550px){

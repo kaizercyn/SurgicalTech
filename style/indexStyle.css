@@ -56,7 +56,7 @@ body{
 
 .title{
     position: absolute;
-    top: 200px;
+    top: 300px;
     bottom: 50%;
     left: 100px;
 }
@@ -65,21 +65,21 @@ body{
     margin-bottom: 5px;
     font-family: 'Nyght Serif';
     color: white;
-    font-size: 60px;
+    font-size: 600%;
 }
 
 .title h2{
     margin-bottom: 5px;
     font-family: 'Nyght Serif';
     color: white;
-    font-size: 20px;
+    font-size: 120%;
     
 }
 
 .title p{
     font-family: 'Handil Pro', sans-serif;
     color:white;
-    font-size: 12px;
+    font-size: 80%;
     font-kerning: normal;
     font-weight: lighter;
 }
