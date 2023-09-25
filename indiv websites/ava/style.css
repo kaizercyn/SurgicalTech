@@ -2,12 +2,11 @@ body{
     background-color: rgb(13, 70, 76);
 }
 
-#imgleft {
+#img {
     float: left;
-}
-
-#imgright {
-    float: left
+    width: 45%;
+    margin: 20px;
+    margin-bottom: 25px;
 }
 
 .container {
@@ -15,20 +14,13 @@ body{
     justify-content: center;
 }
 
-#left {
+#links {
     background-color: rgb(13, 24, 86);
     border: 3px solid #000000;
     padding: 20px;
     float: left;
-    margin-right: 20px;
-}
-
-#right {
-    background-color: rgb(13, 24, 86);
-    border: 3px solid #000000;
-    padding: 20px;
-    float:left;
-    
+    margin: 5px;
+    margin-bottom: 20px;
 }
 
 h1 {
