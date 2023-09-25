@@ -1,0 +1,155 @@
+@font-face {
+    font-family: 'Space Mono Bold';
+    src: url('../other_resources/fonts/SpaceMono-Bold.woff2') format('woff2'),
+        url('../other_resources/fonts/SpaceMono-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Space Mono Bold Italic';
+    src: url('../other_resources/fonts/SpaceMono-BoldItalic.woff2') format('woff2'),
+        url('../other_resources/fonts/SpaceMono-BoldItalic.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Space Mono Italic';
+    src: url('../other_resources/fonts/SpaceMono-Italic.woff2') format('woff2'),
+        url('../other_resources/fonts/SpaceMono-Italic.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Space Mono';
+    src: url('../other_resources/fonts/SpaceMono-Regular.woff2') format('woff2'),
+        url('../other_resources/fonts/SpaceMono-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Nyght Serif Bold';
+    src: url('../other_resources/fonts/NyghtSerif-Bold.woff2') format('woff2'),
+        url('../other_resources/fonts/NyghtSerif-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Nyght Serif Italic';
+    src: url('../other_resources/fonts/NyghtSerif-RegularItalic.woff2') format('woff2'),
+        url('../other_resources/fonts/NyghtSerif-RegularItalic.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Nyght Serif';
+    src: url('../other_resources/fonts/NyghtSerif-Regular.woff2') format('woff2'),
+        url('../other_resources/fonts/NyghtSerif-Regular.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #F0EFEB;
+}
+
+
+
+
+.about{
+    position: relative;
+    margin-top: 75px;
+    text-align: center;
+    font-family: 'Space Mono';
+    color: #1e1e1e;
+    cursor: pointer;
+}
+
+
+.about h3{
+    font-size: 25px;
+}
+
+.about p{
+    display: none;
+    position: relative;
+    text-align: center;
+    top: 0; 
+    left: 0; 
+}
+
+.about h3:hover + p{
+    display:block;
+}
+
+/* .about:hover p{
+    display: block; 
+} */
+
+.container{
+    position: relative;
+}
+
+.title{
+    position: relative;
+    z-index: 2;
+    text-align: center;
+    padding: 2%;
+    margin-top: 30px;
+    color: #1e1e1e;
+
+}
+
+.title h1{
+    font-size: 140px;
+    font-family: 'Space Mono';
+    font-weight: normal;
+    line-height: 80%;
+}
+
+.nyght{
+    font-family:'Nyght Serif';
+}
+
+.title p{
+    margin-top: 20px;
+    font-size: 15px;
+    font-family: 'Space Mono';
+    font-weight: bold;
+}
+
+.img{
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+
+}
+
+nav {
+    text-align: center; /* Center-align the navigation items */
+
+}
+
+nav a {
+    display: inline-block;
+    margin: 30px; /* Adjust the spacing between links as needed */
+    text-decoration: none;
+    font-family: 'Space Mono';
+    color: #333;
+    position: relative;
+    transition: border 0.3s ease; /* Add a transition for the border */
+}
+
+nav a:hover {
+    border: 2px solid #333; /* Add a circular border on hover */
+    border-radius: 50%; /* Make it circular */
+    padding: 5px; /* Adjust the padding to control the size of the circle */
+    font-weight: bold;
+}
