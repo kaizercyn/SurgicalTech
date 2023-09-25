@@ -1,0 +1,42 @@
+.header {
+  padding: 35px;
+  text-align: center;
+  color: white;
+  font-size: 25px;
+  font-family: arial;
+}
+
+body {
+    background-image: "csbg.png" ;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+li {
+  float: center;
+font-size: 500;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: left;
+  padding: 13px 15px;
+  text-decoration: none;
+}
+
+li a:hover {
+  color: gray;
+}
+
+h1 {
+color: white;
+text-align: center;
+font-family: arial;
+}
+
+ul {
+color:white;
+
+
