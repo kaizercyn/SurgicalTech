@@ -2,6 +2,14 @@ body{
     background-color: rgb(13, 70, 76);
 }
 
+#imgleft {
+    float: left;
+}
+
+#imgright {
+    float: left
+}
+
 .container {
     display: flex;
     justify-content: center;
