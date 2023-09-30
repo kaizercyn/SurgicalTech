@@ -1,0 +1,167 @@
+@font-face {
+    font-family: 'Space Mono';
+    src: url('../other_resources/fonts/SpaceMono-Regular.woff2') format('woff2'),
+        url('../other_resources/fonts/SpaceMono-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Nyght Serif';
+    src: url('../other_resources/fonts/NyghtSerif-Regular.woff2') format('woff2'),
+        url('../other_resources/fonts/NyghtSerif-Regular.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Nyght Serif Bold';
+    src: url('../other_resources/fonts/NyghtSerif-Bold.woff2') format('woff2'),
+        url('../other_resources/fonts/NyghtSerif-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #F0EFEB;
+    overflow-y: scroll;
+}
+
+::-webkit-scrollbar {
+    width: 0.5em; /* Adjust the width as needed */
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: transparent; /* Hide the thumb */
+}
+
+.container{
+    scroll-snap-type: y mandatory;
+    height: 100vh;
+}
+
+section{
+    height: 100vh;
+    scroll-snap-align: start;
+    padding-top: 20px;
+}
+
+
+.about{
+    position: relative;
+    text-align: center;
+    font-family: 'Space Mono';
+    color: #1e1e1e;
+    font-size: 15px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.about a{
+    text-decoration: none;
+}
+
+.about a:visited{    
+    text-decoration: none;
+}
+
+.container{
+    text-align: center;
+}
+
+
+h1{
+    font-family: 'Nyght Serif Bold';
+    text-align: center;
+    margin-top: 15px;
+    margin-left: 60px;
+    font-size: 70px;
+    line-height: 80px;
+}
+
+.first h2{
+    font-family: 'Space Mono';
+    margin-top: 5px;
+    font-size: 25px;
+}
+
+p{
+    font-family: 'Space Mono';
+    font-weight: lighter;
+    margin-top: 15px;
+}
+
+hr{
+    border: none;
+    border-top: 2px solid #1e1e1e;
+    margin: 20px 150px;
+}
+
+.content {
+    margin-top: 45px;
+    margin-left: 10%;
+    margin-right: 10%;
+    display: flex;
+    flex-direction: row; 
+    align-items: center; 
+}
+
+.img {
+    flex: 1; 
+
+}
+
+.txt {
+    flex: 1; 
+    max-width: 450px; 
+    height: 300px;
+}
+
+.txt p{
+    text-align: justify;
+    font-size: 16px;
+}
+
+ .first .arrow{
+    margin-top: 100px;
+    width: 30px;
+    height: auto;
+}
+
+
+
+.sub p{
+    padding: 10px 150px;
+    text-align: justify;
+    font-size: 16px;
+}
+
+.sub  h2{
+    font-family: 'Nyght Serif Bold';
+    margin-top: 5px;
+    font-size: 25px;
+}
+
+.agri2,
+.agri3,
+.agri4{
+    width: 45%;
+    height: auto;
+    padding: 10px;
+}
+
+.sub .arrow{
+    margin-top: 10px;
+    width: 30px;
+    height: auto;
+}
+
+
+
+
+
+
+
